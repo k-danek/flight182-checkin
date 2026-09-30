@@ -1,0 +1,205 @@
+{
+  "characters": [
+    {
+      "id": "dracula",
+      "name": "Dr. Acula",
+      "clan": "Nosferatu",
+      "seat": "Economy, Row 22",
+      "pass": {
+        "class": "Economy",
+        "seat": "22C",
+        "zone": "4"
+      },
+      "teaser": "A virologist in a cheap Dracula costume, with plastic fangs worn over his real ones. The ugly face under the make-up is not make-up: he is a Nosferatu. Other Nosferatu hide their faces with Obfuscate; he has none. The Camarilla would lock a monster like him in the sewers. The Sabbat lets him solve the Nosferatu curse in a new way: dress up as a vampire, and nobody looks twice. So far, everyone assumes it's bad latex. He travels with a bag of lab rats that do what he tells them, a phlebotomy kit, and a can of tomato juice, because it's funny. He can tear a lavatory door off its hinges without putting down the juice. He's weirder than he sounds and has run completely out of fucks to give.",
+      "playstyle": "Smart and shameless: weird science, rats, cosplay, zero fucks given.",
+      "strength": "The coolest head and one of the best brains on board. He has a scientist's mind and a photographic memory, nothing rattles him, and he has rats.",
+      "portrait": "portraits/dracula.png"
+    },
+    {
+      "id": "homeboy",
+      "name": "Sabbat Homeboy",
+      "fullname": "Marcus \"Kid Rage\" Dubois",
+      "clan": "Brujah. Just ask him; he'll tell you twice.",
+      "seat": "Economy, Rows 30–35",
+      "pass": {
+        "class": "Economy",
+        "seat": "32E",
+        "zone": "3"
+      },
+      "teaser": "Gold chains, a boombox the size of a coffin, and a verse about Carthage that has been \"almost finished\" since 1983. You are the loudest, baddest Brujah on the plane, and everybody knows it, because you told them. Twice. Behind the swagger sits the coldest head in the pack. You know more about this mission than anyone aboard, you can talk a flight attendant out of her own name tag, and your stare holds people still like a mouse in front of a… never mind. Your fists hit like a dropped suitcase. But if you're hitting things, the con is already going wrong.",
+      "playstyle": "A talker and schemer in a brawler's costume: long cons, big lies, and a punch or a blade when the lie runs out.",
+      "strength": "Manipulation and inside knowledge. Nobody on board knows more about the mission, and he's handy with a blade as well.",
+      "portrait": "portraits/homeboy.png"
+    },
+    {
+      "id": "avian",
+      "name": "The Stewardess",
+      "fullname": "Nalini Rao",
+      "clan": "Gangrel antitribu",
+      "seat": "First Class (posing as flight attendant)",
+      "pass": {
+        "class": "First",
+        "seat": "2A",
+        "zone": "1"
+      },
+      "teaser": "Tall, gold-eyed, draped in an Air India sari as if she was born in it. She's the second most beautiful woman on the plane and the most elegant by a mile. Every man in First Class has asked her for something he didn't need. She pours without spilling in turbulence, holds the key to every lavatory on board, and feeds so fast the man in 2B thinks he just nodded off. She is the fastest thing in the cabin, and the only passenger who doesn't need the aeroplane to fly. The catch: hollow bones. A hard shove breaks her arm.",
+      "playstyle": "Elegant predator: access, speed and silent feeding, with a pair of wings for the exit.",
+      "strength": "Speed and access. She's the fastest thing on board, has the keys to everything, and can turn into a hawk. She is also the most fragile.",
+      "portrait": "portraits/avian.png"
+    },
+    {
+      "id": "elvis",
+      "name": "The King",
+      "fullname": "Elvis Aaron Presley",
+      "clan": "Malkavian",
+      "seat": "Business Class, Row 14",
+      "pass": {
+        "class": "Business",
+        "seat": "14A",
+        "zone": "2"
+      },
+      "teaser": "Elvis didn't die in 1977. He was in the casket, and nobody checked. Now he sits in Business Class in a rhinestone jumpsuit, talking to an empty bourbon glass, and the glass talks back. Every prophecy he makes sounds insane and comes true two scenes later. His madness is catching: five minutes with him and you'll hum \"Suspicious Minds\" for a week and doubt your own name. He still moves like the '68 comeback special, only faster, and when he walks into a room, the room applauds.",
+      "playstyle": "Madness and prophecy: visions, chaos and performance.",
+      "strength": "Charisma. The most magnetic personality on board, with prophecies that are true and madness he can hand to other people.",
+      "portrait": "portraits/elvis.png"
+    },
+    {
+      "id": "cleopatra",
+      "name": "Cleopatra",
+      "fullname": "Cleo Dawson",
+      "clan": "Nosferatu antitribu",
+      "seat": "Economy, Row 28",
+      "pass": {
+        "class": "Economy",
+        "seat": "28H",
+        "zone": "4"
+      },
+      "teaser": "Twenty-something American backpacker: On the Road in her hands, a Canadian flag on her bag, and the kind of face you forget while you're still looking at it. That's not an accident, and it isn't her face. You've walked past her four times tonight. She is the pack's eyes and ears: warm, eager, a little embarrassing, and she remembers every word she overhears. She can be anyone, or no one, and she's a better liar than she is invisible. Her backpack is full of photos of herself with someone else's face stamped over. The real face is under the pretty one, and you don't want to see it.",
+      "playstyle": "Spy: stealth, eavesdropping, disguise.",
+      "strength": "Vanishing and lying. She's the best on board at not being seen and at wearing other faces, and she has perfect recall of everything she overhears.",
+      "portrait": "portraits/cleopatra.png"
+    },
+    {
+      "id": "toreador",
+      "name": "The Filmmaker",
+      "fullname": "Lucien Marchand",
+      "clan": "Toreador antitribu",
+      "seat": "First Class, Row 3",
+      "pass": {
+        "class": "First",
+        "seat": "3A",
+        "zone": "1"
+      },
+      "teaser": "French, mid-thirties and frozen in his prime. Before the Embrace he was a porn actor, and a genuinely good one: punctual, professional, and equipped with an anatomical situation that has caused incidents at three airports. He carries the medical certificate. Now he's behind the camera as well, with a Betacam, two hundred grams of cocaine, and a collection of Third Reich memorabilia that he calls \"history\" and everyone else calls a red flag. He owns every room he walks into: people want to agree with him and thank him when he lets them. Violence is art. Fear is art. The Masquerade breaking is art, and he has it on tape. When the critics get physical, he's already moving, and he shoots first.",
+      "playstyle": "Social manipulator: charm, spotlight, decadence, and a camera that never stops rolling.",
+      "strength": "Owning the room. The strongest Presence on board, plus quick hands with a pistol.",
+      "portrait": "portraits/toreador.png"
+    },
+    {
+      "id": "supermodel",
+      "name": "The Supermodel",
+      "fullname": "Vesna Kralj",
+      "clan": "Tzimisce",
+      "seat": "Business Class, Row 9",
+      "pass": {
+        "class": "Business",
+        "seat": "9D",
+        "zone": "2"
+      },
+      "teaser": "A body sculpted to perfection, by an artist with Intelligence 1. Her Intelligence is a dot, singular. Everything is flawless and everything is slightly too much: the lips, the lashes, the proportions, and breasts big enough to store three hand grenades. Ask her how she knows. It's the kind of beauty that makes you want to stare and apologise at the same time, and men still lose the thread of their sentences when she walks past. She doesn't do riddles, clues or small talk. She does bodies: flesh is clay in her hands, she can redo a face in a lavatory, and her own body can unfold into something that makes the crew pray. Under the silk and the silicone is the most terrifying physical monster on this flight.",
+      "playstyle": "Body horror and blunt force: flesh-sculpting, seduction without subtlety, fists and grenades.",
+      "strength": "Close combat. The best brawler on the plane and the best-looking body on board, with a war form nobody else can match.",
+      "portrait": "portraits/supermodel.png"
+    },
+    {
+      "id": "veres",
+      "name": "Man-Spider",
+      "fullname": "Ferenc Veres",
+      "clan": "Tzimisce",
+      "seat": "Economy, Row 18 bulkhead",
+      "pass": {
+        "class": "Economy",
+        "seat": "18D",
+        "zone": "4"
+      },
+      "teaser": "Ninety years old, paraplegic, under a tartan blanket in a motorised wheelchair that whines like a dentist's drill. The Sabbat made him pack leader, because nobody else in this collection of freaks can be trusted to read a map. He has read the mission brief twice, your aura once, and your lies before you finish telling them. His eyes are among the sharpest on the plane, and his brain can talk a surgeon out of the Hippocratic oath or read a circuit board like an X-ray. Under the blanket he's a man-spider: six bone-and-chitin legs folded into the chair, and when they come out he walks on the ceiling. They grab very well, and they don't win fights on their own; that's what the pack is for. His thumbs can redesign a face, and his chair carries a bone crossbow and more pouches than a kangaroo convention, all of them full of other people's guns.",
+      "playstyle": "Pack leader and mad scientist. He plans, reads people, sculpts flesh, and scuttles when he has to.",
+      "strength": "Brains and eyes. He ties for the top Intelligence on board, has some of the sharpest senses, and is the pack's only trained leader and its smuggler.",
+      "portrait": "portraits/veres.png"
+    },
+    {
+      "id": "hobo",
+      "name": "Gutbucket",
+      "fullname": "Reginald \"Reg\" Pike",
+      "clan": "Gangrel antitribu",
+      "seat": "Economy, Row 51",
+      "pass": {
+        "class": "Economy",
+        "seat": "51K",
+        "zone": "3"
+      },
+      "teaser": "Korean War vet, twenty years riding freight trains, sewn shut with fishing line, and smelling like a wet dog that died in a bus shelter. Nobody sits within two rows of him willingly. He preaches Caine to a pigeon named Bishop, and the pigeon listens. He carries a hip flask of something holy and disgusting, and got waved through security after offering to let the guard feel his \"Korean shrapnel\". It isn't shrapnel. Shoot him, stab him, throw him down the stairs: he gets up and asks whether you've let Caine into your heart.",
+      "playstyle": "Gross-out preacher: filth, faith, a pigeon, and something in the belly.",
+      "strength": "Toughness. He's the hardest vampire on the plane to put down, and he carries the biggest gun nobody found.",
+      "portrait": "portraits/hobo.png"
+    },
+    {
+      "id": "dolores",
+      "name": "The Shovelhead Bride",
+      "fullname": "Dolores Spade",
+      "clan": "Caitiff",
+      "seat": "Economy, Row 48 (smoking)",
+      "pass": {
+        "class": "Economy",
+        "seat": "48J",
+        "zone": "3"
+      },
+      "teaser": "Left at the altar, hit with a shovel, dumped in a gravel pit with thirty drunks as disposable cannon fodder. Big mistake. You climbed out out of pure spite, still in the wedding dress, and you've been collecting ever since. Everything you have, you took from somebody: eyes that see what's behind a face, a knack for not being there, hands a beat faster than the room, a voice that makes people do what they're told, and more. The dent in your skull holds your cigarette. The ticket is one-way and paid in cash. Nobody expects greatness from a throwaway. Their mistake. Usually their last.",
+      "playstyle": "A jack-of-all-trades survivor who sees, sneaks, lies and commands, and gets deadlier after every bloody night.",
+      "strength": "Versatility. The widest toolkit on the plane: five Disciplines, sharp senses, quick hands and a liar's tongue to use them with.",
+      "portrait": "portraits/dolores.png"
+    },
+    {
+      "id": "hero",
+      "name": "The Hero",
+      "fullname": "Ajax",
+      "clan": "Brujah",
+      "seat": "Economy, Row 26 (exit row)",
+      "pass": {
+        "class": "Economy",
+        "seat": "26A",
+        "zone": "4"
+      },
+      "teaser": "Six foot five of Greek marble from the Danforth. He calls every flight attendant kyría, steers every conversation back to Carthage, and toasts Carthago reficienda est with a drink he can't drink. He sat in the emergency-exit row and told the crew he'll open the door personally \"if the gods require it\". He can quote Plato or fold a man in half; which comes first depends on the night. His fists work like a wrecking ball with opinions.",
+      "playstyle": "Brawler: honour, strength, poetry and Carthage.",
+      "strength": "Raw power. Nothing on this plane hits harder.",
+      "portrait": "portraits/hero.png",
+      "by_relation": {
+        "resource": {
+          "fullname": "Spyridon Soutoros",
+          "portrait": "portraits/hero-b.png"
+        },
+        "enemy": {
+          "fullname": "Spyridon Soutoros",
+          "portrait": "portraits/hero-b.png"
+        }
+      }
+    },
+    {
+      "id": "chauffeur",
+      "name": "The Chauffeur",
+      "fullname": "Aurèle Thibodeau",
+      "clan": "Ghoul",
+      "seat": "Economy, next to his patron",
+      "pass": {
+        "class": "Economy",
+        "seat": "29F",
+        "zone": "4"
+      },
+      "teaser": "Aurèle Thibodeau: Québécois chauffeur, flat cap, driving gloves, ninety-one years old and looking fifty, and not one word of English in sixty years. The bishop gave him to one of the pack as a gift. He is polite, silent and punctual, and he calls his master patron. He's more than he looks: much older, and much hungrier. Nobody on this plane has a longer game.",
+      "playstyle": "Quiet servant and slow burn: almost nothing to do for hours, then everything.",
+      "strength": "Patience and a poker face. Pick him only if you have both.",
+      "portrait": "portraits/chauffeur.png"
+    }
+  ]
+}

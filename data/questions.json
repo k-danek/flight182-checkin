@@ -1,0 +1,310 @@
+{
+  "scoring": {
+    "weights": "3 = strong pull, 2 = medium, 1 = light",
+    "main": "highest total",
+    "backup": "second highest total",
+    "tiebreak": [
+      "total",
+      "playstyle (points from playstyle questions)",
+      "strong (number of 3-point hits)",
+      "roster order in characters.json"
+    ],
+    "variant": "the variant question sets the player's 'relation' to the Sabbat (fanatic, expression, family, resource, enemy); each character card maps the relation to a variant. Its answers can also add character points"
+  },
+  "questions": [
+    {
+      "id": "q3",
+      "playstyle": true,
+      "text": "At 35,000 feet a passenger sees your fangs and opens his mouth to scream. What do you do?",
+      "answers": [
+        {
+          "text": "Punch him through the floor. And the hold. And the ocean.",
+          "hint": "Melee and brute force",
+          "scores": {
+            "hero": 3,
+            "hobo": 2,
+            "supermodel": 2,
+            "homeboy": 1
+          }
+        },
+        {
+          "text": "Shoot him through the headrest. Silencer, obviously. The cabin pressure isn't.",
+          "hint": "Guns and tactics",
+          "scores": {
+            "hobo": 3,
+            "toreador": 2
+          }
+        },
+        {
+          "text": "Whisper in his ear. By landing he's signed me his kidneys, gratefully.",
+          "hint": "Charm and manipulation",
+          "scores": {
+            "toreador": 3,
+            "homeboy": 2
+          }
+        },
+        {
+          "text": "What fangs? I was never here.",
+          "hint": "Stealth and vanishing",
+          "scores": {
+            "cleopatra": 3,
+            "avian": 2
+          }
+        },
+        {
+          "text": "Redesign his face without a mouth. He makes a lovely neck pillow.",
+          "hint": "Body horror",
+          "scores": {
+            "supermodel": 3,
+            "veres": 2
+          }
+        },
+        {
+          "text": "Sing him the truth until the cabin decides we're both drunk.",
+          "hint": "Chaos and comedy",
+          "scores": {
+            "elvis": 3,
+            "dracula": 2
+          }
+        },
+        {
+          "text": "Apologise. Eat him. Apologise with my mouth full.",
+          "hint": "Ugly survival",
+          "scores": {
+            "dolores": 3,
+            "hobo": 1
+          }
+        },
+        {
+          "text": "'Asseyez-vous. Oubliez.' He sits. He forgets.",
+          "hint": "Mind control and patience",
+          "scores": {
+            "chauffeur": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "playstyle": true,
+      "text": "Pitch me your perfect evening at the gaming table.",
+      "answers": [
+        {
+          "text": "A heist where I'm lying to all of you, and you find out too late.",
+          "hint": "Secret agenda and betrayal",
+          "scores": {
+            "homeboy": 3,
+            "cleopatra": 2,
+            "chauffeur": 2,
+            "avian": 1
+          }
+        },
+        {
+          "text": "A bar fight that turns into a debate about Carthage, then back into a bar fight.",
+          "hint": "Combat and honour",
+          "scores": {
+            "hero": 3
+          }
+        },
+        {
+          "text": "An art film. I direct, you bleed, and the lighting is gorgeous.",
+          "hint": "Spotlight and decadence",
+          "scores": {
+            "toreador": 3,
+            "supermodel": 1
+          }
+        },
+        {
+          "text": "A fever dream where only I can hear the prophecy.",
+          "hint": "Madness and visions",
+          "scores": {
+            "elvis": 3,
+            "hobo": 1
+          }
+        },
+        {
+          "text": "A nature documentary, and I'm the part they cut for being too upsetting.",
+          "hint": "Lone predator and shapeshifting",
+          "scores": {
+            "avian": 3,
+            "hobo": 1,
+            "supermodel": 2
+          }
+        },
+        {
+          "text": "A sad comedy about a loser who refuses to lose.",
+          "hint": "Underdog and grit",
+          "scores": {
+            "dolores": 3,
+            "dracula": 2
+          }
+        },
+        {
+          "text": "A slow reveal. Everyone thinks I'm harmless until the blanket comes off.",
+          "hint": "Hidden monster and ambush",
+          "scores": {
+            "veres": 3,
+            "supermodel": 1,
+            "avian": 1
+          }
+        },
+        {
+          "text": "My animals do the dirty work: rats in the vents, a three-legged cat on watch.",
+          "hint": "Animal minions",
+          "scores": {
+            "dracula": 3,
+            "dolores": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q1",
+      "text": "How do you resolve conflicts?",
+      "answers": [
+        {
+          "text": "'Ever danced with the Devil in the pale moonlight?' Then I introduce them.",
+          "scores": {
+            "elvis": 3
+          }
+        },
+        {
+          "text": "I dissolve him from the inside, then drink him through a straw.",
+          "scores": {
+            "veres": 3
+          }
+        },
+        {
+          "text": "Socratic debate, three hours, until he admits he doesn't exist.",
+          "scores": {
+            "hero": 3
+          }
+        },
+        {
+          "text": "They get tired of beating me up.",
+          "scores": {
+            "hobo": 3
+          }
+        },
+        {
+          "text": "I hide. You've walked past me four times tonight.",
+          "scores": {
+            "cleopatra": 3,
+            "chauffeur": 1
+          }
+        },
+        {
+          "text": "I dim the cabin lights. When they come back on, his seat is empty and his tray table is in the upright position.",
+          "scores": {
+            "avian": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "What kink do you bring to a party?",
+      "answers": [
+        {
+          "text": "Supernatural boobs. Supernatural ass. Supernatural EV-RY-THING!",
+          "scores": {
+            "supermodel": 3
+          }
+        },
+        {
+          "text": "Fifty centimetres of pure hardness, and the camera's already rolling.",
+          "scores": {
+            "toreador": 3,
+            "supermodel": 1
+          }
+        },
+        {
+          "text": "Limbs. Limbs. Lots and lots of limbsssss.",
+          "scores": {
+            "veres": 3
+          }
+        },
+        {
+          "text": "Experience. A few centuries of it. You won't be the first king I've had on his knees.",
+          "scores": {
+            "chauffeur": 3
+          }
+        },
+        {
+          "text": "Fifty centimetres of forked tongue… and I know how to use it.",
+          "scores": {
+            "homeboy": 3
+          }
+        },
+        {
+          "text": "A cute extra hole in my head, courtesy of a spade.",
+          "scores": {
+            "dolores": 3
+          }
+        },
+        {
+          "text": "A lab coat and forty trained rats. You'll never guess where they go.",
+          "scores": {
+            "dracula": 3
+          }
+        },
+        {
+          "text": "Hit me. Harder. You will get tired long before I do.",
+          "scores": {
+            "hobo": 2,
+            "dolores": 1
+          }
+        },
+        {
+          "text": "Greek wrestling. Oiled, naked.",
+          "scores": {
+            "hero": 3
+          }
+        },
+        {
+          "text": "Roleplay. I'll be anyone you want. Literally anyone.",
+          "scores": {
+            "cleopatra": 3,
+            "homeboy": 1,
+            "chauffeur": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "variant": true,
+      "text": "What is the Sabbat to you?",
+      "answers": [
+        {
+          "text": "The Sword of Caine. The Archbishop knows my name, and I know my orders.",
+          "relation": "fanatic",
+          "scores": {
+            "veres": 1,
+            "avian": 1
+          }
+        },
+        {
+          "text": "A stage with no curtain. It lets me be exactly what I am.",
+          "relation": "expression",
+          "scores": {}
+        },
+        {
+          "text": "My family. Nobody touches my pack.",
+          "relation": "family",
+          "scores": {}
+        },
+        {
+          "text": "A tool. I use it until it breaks.",
+          "relation": "resource",
+          "scores": {}
+        },
+        {
+          "text": "The enemy. I'm inside it, and I'm taking it apart.",
+          "relation": "enemy",
+          "scores": {}
+        }
+      ]
+    }
+  ]
+}

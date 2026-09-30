@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flight 182 — Who Are You?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>AIR INDIA 182</h1>
+    <p>Answer honestly. It will not save you.</p>
+  </header>
+
+  <div class="panel">
+
+    <section id="screen-checkin" class="screen active">
+      <ol class="steps">
+        <li class="on">Find booking</li>
+        <li>Dangerous goods</li>
+        <li>Passenger details</li>
+      </ol>
+      <h2>Online check-in</h2>
+      <p class="lead">Enter the surname and booking reference exactly as they appear on your ticket.</p>
+      <form id="checkin-form" novalidate>
+        <div class="field">
+          <label for="surname">Surname</label>
+          <input type="text" id="surname" autocomplete="off" spellcheck="false">
+        </div>
+        <div class="field">
+          <label for="booking-ref">Booking reference</label>
+          <input type="text" id="booking-ref" autocomplete="off" spellcheck="false">
+        </div>
+        <div id="checkin-error" class="error-box" hidden>
+          <strong>Booking not found.</strong>
+          <span id="checkin-error-text">The booking reference could not be found in the system. Check your details and try again.</span>
+        </div>
+        <button type="submit" class="primary">Find my booking</button>
+      </form>
+    </section>
+
+    <section id="screen-goods" class="screen">
+      <ol class="steps">
+        <li class="done">Find booking</li>
+        <li class="on">Dangerous goods</li>
+        <li>Passenger details</li>
+      </ol>
+      <h2>Items not permitted on board</h2>
+      <p class="lead">For the safety of all passengers, the following may not be carried in cabin or checked baggage.</p>
+
+      <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <defs>
+          <symbol id="i-no" viewBox="0 0 64 64">
+            <circle cx="32" cy="32" r="28" fill="none" stroke="#c0182b" stroke-width="5"/>
+            <line x1="12.2" y1="12.2" x2="51.8" y2="51.8" stroke="#c0182b" stroke-width="5"/>
+          </symbol>
+          <symbol id="i-bomb" viewBox="0 0 64 64">
+            <circle cx="29" cy="38" r="14"/>
+            <rect x="33" y="21" width="8" height="7" transform="rotate(40 37 24.5)"/>
+            <path d="M40 22 Q44 14 50 15" fill="none" stroke="currentColor" stroke-width="2"/>
+            <path d="M50 10v4M50 16v4M45 15h4M51 15h4" stroke="currentColor" stroke-width="2"/>
+          </symbol>
+          <symbol id="i-gun" viewBox="0 0 64 64">
+            <path d="M12 24h40v9H30l-4 15h-9l3-15h-8z"/>
+            <path d="M30 33q1 6 6 6" fill="none" stroke="currentColor" stroke-width="2"/>
+          </symbol>
+          <symbol id="i-knife" viewBox="0 0 64 64">
+            <path d="M26 38 L48 14 Q54 16 50 24 L31 43z"/>
+            <path d="M26 38 L31 43 L19 55 Q14 55 14 50z"/>
+          </symbol>
+          <symbol id="i-flame" viewBox="0 0 64 64">
+            <path d="M32 10c4 10 14 14 14 28a14 14 0 0 1-28 0c0-8 6-12 8-18 2 6 4 8 6 8 0-6-2-12 0-18z"/>
+          </symbol>
+          <symbol id="i-gas" viewBox="0 0 64 64">
+            <rect x="28" y="10" width="8" height="7"/>
+            <rect x="23" y="18" width="18" height="36" rx="7"/>
+          </symbol>
+          <symbol id="i-rad" viewBox="0 0 64 64">
+            <circle cx="32" cy="32" r="4"/>
+            <circle cx="32" cy="32" r="13" fill="none" stroke="currentColor" stroke-width="12"
+                    stroke-dasharray="13.61 13.61" transform="rotate(-120 32 32)"/>
+          </symbol>
+          <symbol id="i-stake" viewBox="0 0 64 64">
+            <path d="M27 8h10v36l-5 13-5-13z"/>
+            <path d="M30 14v24M34 18v18" stroke="#f3efe6" stroke-width="1.5"/>
+          </symbol>
+          <symbol id="i-holy" viewBox="0 0 64 64">
+            <rect x="28" y="8" width="8" height="6"/>
+            <path d="M28 14h8v6l6 6v28H22V26l6-6z"/>
+            <path d="M32 30v16M27 35h10" stroke="#f3efe6" stroke-width="3"/>
+          </symbol>
+        </defs>
+      </svg>
+
+      <div class="placard">
+        <figure><svg viewBox="0 0 64 64"><use href="#i-bomb"/><use href="#i-no"/></svg><figcaption>Explosives &amp; fireworks</figcaption></figure>
+        <figure><svg viewBox="0 0 64 64"><use href="#i-gun"/><use href="#i-no"/></svg><figcaption>Firearms &amp; ammunition</figcaption></figure>
+        <figure><svg viewBox="0 0 64 64"><use href="#i-knife"/><use href="#i-no"/></svg><figcaption>Knives &amp; blades</figcaption></figure>
+        <figure><svg viewBox="0 0 64 64"><use href="#i-flame"/><use href="#i-no"/></svg><figcaption>Flammable liquids</figcaption></figure>
+        <figure><svg viewBox="0 0 64 64"><use href="#i-gas"/><use href="#i-no"/></svg><figcaption>Compressed gases</figcaption></figure>
+        <figure><svg viewBox="0 0 64 64"><use href="#i-rad"/><use href="#i-no"/></svg><figcaption>Radioactive material</figcaption></figure>
+        <figure><svg viewBox="0 0 64 64"><use href="#i-stake"/><use href="#i-no"/></svg><figcaption>Wooden stakes</figcaption></figure>
+        <figure><svg viewBox="0 0 64 64"><use href="#i-holy"/><use href="#i-no"/></svg><figcaption>Holy water</figcaption></figure>
+      </div>
+
+      <label class="check">
+        <input type="checkbox" id="goods-ack">
+        <span>I confirm that neither I nor any baggage checked in under my name contains the items listed above, and that I packed my bags myself.</span>
+      </label>
+      <button class="primary" id="goods-btn" disabled>Acknowledge and continue</button>
+    </section>
+
+    <section id="screen-question" class="screen">
+      <div class="progress" id="progress-label"></div>
+      <h2 id="question-text"></h2>
+      <div class="answers" id="answers-container"></div>
+    </section>
+
+    <section id="screen-loading" class="screen">
+      <h2>Reading the manifest&hellip;</h2>
+    </section>
+
+    <section id="screen-result" class="screen">
+      <div class="result-card">
+        <div class="progress">You are</div>
+        <img class="portrait" id="result-portrait" alt="" hidden>
+        <div class="name" id="result-name"></div>
+        <div class="clan" id="result-clan"></div>
+        <div class="seat" id="result-seat"></div>
+        <div class="fullname" id="result-fullname"></div>
+        <div class="teaser" id="result-teaser"></div>
+        <div class="style" id="result-playstyle"></div>
+        <div class="style" id="result-strength"></div>
+        <div class="bpass" id="result-pass" hidden>
+          <div class="bp-head">
+            <span>AIR INDIA</span>
+            <span>Boarding pass</span>
+          </div>
+          <div class="bp-body">
+            <div class="bp-field bp-name">
+              <span class="bp-label">Name of passenger</span>
+              <span class="bp-value" id="bp-name"></span>
+            </div>
+            <div class="bp-route">
+              <div class="bp-port">
+                <span class="bp-code">YYZ</span>
+                <span class="bp-city">Toronto</span>
+                <span class="bp-time">22:00</span>
+              </div>
+              <!-- colour and rotation inline, not in CSS, so the PNG download keeps them -->
+              <svg class="bp-plane" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+                <path fill="#8a1f2b" transform="rotate(90 12 12)" d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+              </svg>
+              <div class="bp-port">
+                <span class="bp-code">LHR</span>
+                <span class="bp-city">London</span>
+                <span class="bp-time">10:00 <small>+1</small></span>
+              </div>
+            </div>
+            <div class="bp-grid">
+              <div class="bp-field"><span class="bp-label">Flight</span><span class="bp-value">AI 182</span></div>
+              <div class="bp-field"><span class="bp-label">Class</span><span class="bp-value" id="bp-class"></span></div>
+              <div class="bp-field"><span class="bp-label">Seat</span><span class="bp-value bp-big" id="bp-seat"></span></div>
+              <div class="bp-field"><span class="bp-label">Boarding</span><span class="bp-value">21:15</span></div>
+              <div class="bp-field"><span class="bp-label">Gate</span><span class="bp-value">B25</span></div>
+              <div class="bp-field"><span class="bp-label">Zone</span><span class="bp-value bp-big" id="bp-zone"></span></div>
+              <div class="bp-field"><span class="bp-label">Date</span><span class="bp-value">22 JUN 85</span></div>
+              <div class="bp-field"><span class="bp-label">Seq. no.</span><span class="bp-value" id="bp-seq"></span></div>
+              <div class="bp-field"><span class="bp-label">Status</span><span class="bp-value">OK</span></div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="primary bp-download" id="bp-download" hidden>Download boarding pass</button>
+        <details class="backup" id="result-backup" hidden>
+          <summary>
+            <span class="progress">Backup</span>
+            <span class="backup-name" id="backup-name"></span>
+            <span class="clan" id="backup-clan"></span>
+            <span class="style" id="backup-playstyle"></span>
+            <span class="more">Show full description</span>
+          </summary>
+          <img class="portrait small" id="backup-portrait" alt="" hidden>
+          <div class="seat" id="backup-seat"></div>
+          <div class="fullname" id="backup-fullname"></div>
+          <div class="teaser" id="backup-teaser"></div>
+          <div class="style" id="backup-strength"></div>
+        </details>
+        <div id="result-note" class="note" style="display:none;"></div>
+        <div id="result-save-note" class="note" style="display:none;"></div>
+      </div>
+      <button class="ghost" id="restart-btn">Take the quiz again</button>
+    </section>
+
+  </div>
+
+  <footer class="status" id="backend-status"></footer>
+</div>
+
+<!-- renders the boarding pass to a PNG for the download button -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
